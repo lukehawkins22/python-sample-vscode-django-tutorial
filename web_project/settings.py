@@ -29,9 +29,11 @@ DEBUG = True
 # a specific host, you must also add 'localhost' and/or '127.0.0.1' for local
 # debugging (which are enabled by default when ALLOWED_HOSTS is empty.)
 ALLOWED_HOSTS = [
-    #'localhost',
-    #'127.0.0.1'
-    #'vscode-django-tutorial.azurewebsites.net'  # Sample name only!
+    'localhost',
+    '127.0.0.1',
+    'localhost:8080',
+    '127.0.0.1:8080',
+    'test-service-atrx.onrender.com'  # Sample name only!
 ]
 
 # Application definition
